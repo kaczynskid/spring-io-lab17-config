@@ -13,3 +13,11 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: "http://${eureka.instance.hostname}:${server.port}/eureka"
+
+spring:
+  boot:
+    admin:
+      context-path: "/ui"
+      discovery:
+        converter:
+          management-context-path: "/admin"
