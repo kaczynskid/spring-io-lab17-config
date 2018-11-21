@@ -29,3 +29,11 @@ eureka:
     prefer-ip-address: true
     health-check-url-path: "/admin/health"
     status-page-url-path: "/admin/info"
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
