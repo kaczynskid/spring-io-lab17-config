@@ -1,0 +1,11 @@
+server:
+  port: 9110
+
+management:
+  server:
+    port: 19110
+
+uri:
+  customizer:
+    enabled: false
+
