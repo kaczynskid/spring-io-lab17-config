@@ -9,6 +9,8 @@ management:
       base-path: "/admin"
       exposure:
         include: "*"
+    jmx:
+      domain: "io.spring.lab.${spring.application.name}"
   endpoint:
     health:
       show-details: "always"
