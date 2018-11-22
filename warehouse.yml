@@ -1,9 +1,9 @@
-server:
-  port: 9100
-
-management:
-  server:
-    port: 19100
+#server:
+#  port: 9100
+#
+#management:
+#  server:
+#    port: 1
 
 spring:
   datasource:
